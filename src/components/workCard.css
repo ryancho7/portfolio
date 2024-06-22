@@ -41,6 +41,7 @@ h4 {
 .cardText {
     display: flex;
     flex-direction: column;
+    text-align: left;
 }
 
 .gitHub {

@@ -88,7 +88,7 @@
 }
 
 .submitBtn:hover {
-    background: rgb(50, 50, 50);
+    background: rgb(122, 122, 122);
     color: white;
     transition: background-color 0.2s ease, color 0.2s ease;
 }

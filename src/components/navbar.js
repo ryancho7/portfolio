@@ -12,7 +12,6 @@ export default function Navbar() {
                 <Link activeClass="active" to="skills" spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">About</Link>
                 <Link activeClass="active" to="portfolio" spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">Works</Link>
                 <Link activeClass="active" to="clients" spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">Clients</Link>
-                <Link activeClass="active" to="homepage" spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">Background</Link>
             </div>
             <button className="desktopMenuBtn" onClick={() => {
                 document.getElementById('contact').scrollIntoView({behavior: 'smooth'});
