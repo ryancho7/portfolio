@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import './homepage.css';
 import resume from '../img/resume.png';
 import profileImage from '../img/profileImg.png';
-import { Link } from "react-scroll";
 
 export default function Homepage() {
     const [helloLoaded, setHelloLoaded] = useState(false);
@@ -40,7 +39,6 @@ export default function Homepage() {
                         <img src={resume} alt="My Resume" className="btnImg"/> My Resume
                     </button>
                 </a>
-                {/* <Link><button className={`btn ${isLoaded ? 'loaded' : ''} btn-secondary`}><img src={resume} alt="My Resume" className="btnImg"/> My Resume</button></Link> */}
             </div>
             <img src={profileImage} alt="Profile" className={`bg ${isLoaded ? 'loaded' : ''}`}/>
         </section>
