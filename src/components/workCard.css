@@ -1,0 +1,57 @@
+h4 {
+    margin-bottom: 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-radius: 8px;
+    height: 22rem;
+}
+
+.cardBody {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 0.5rem;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+.cardTitle {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.cardSubtitle{
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 0;
+    font-style: italic;
+    color: gainsboro;
+}
+
+.cardText {
+    display: flex;
+    flex-direction: column;
+}
+
+.gitHub {
+    object-fit: cover;
+    max-width: 30px;
+    max-height: 30px;
+    margin-right: 0.5rem;
+}
+
+.website {
+    object-fit: cover;
+    max-width: 30px;
+    max-height: 30px;
+}
