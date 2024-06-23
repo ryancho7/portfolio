@@ -17,7 +17,7 @@ export default function WorkCards() {
                 subtitle="React" 
                 background={website} 
                 gitHubLink="https://github.com/ryancho7/portfolio" 
-                websiteLink="https://github.com/ryancho7/portfolio" 
+                websiteLink="https://ryanchoportfolio1.netlify.app/" 
                 gitHubImage={gitHub}
             />
             <WorkCard 
