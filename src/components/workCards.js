@@ -6,12 +6,21 @@ import worldCorruption from '../img/worldCorruption.avif';
 import website from '../img/webDesign.jpeg';
 import gitHub from '../img/whiteGithub.png';
 import personaPlayground from '../img//personaPlayground.jpeg';
+import seoulBites from '../img/seoulBites.png';
 import './workCards.css';
 import WorkCard from "./workCard";
 
 export default function WorkCards() {
     return (
         <div className="d-flex justify-content-center flex-wrap cardBox">
+            <WorkCard 
+                title="Seoul Bites" 
+                subtitle="Native/Redux/Sanity" 
+                background={seoulBites} 
+                gitHubLink="https://github.com/ryancho7/seoul-bites" 
+                websiteLink="https://github.com/ryancho7/seoul-bites" 
+                gitHubImage={gitHub}
+            />
             <WorkCard 
                 title="Personal Website" 
                 subtitle="React" 

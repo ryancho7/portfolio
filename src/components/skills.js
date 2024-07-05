@@ -15,21 +15,21 @@ export default function Skills() {
                     <img src={unitTest} alt="Script Writing/Unit Testing" className="skillImg"/>
                     <div className="skillText">
                         <h2>Script Writing/Unit Testing</h2>
-                        <p>Java</p>
+                        <p>Java, XQuery</p>
                     </div>
                 </div>
                 <div className="skillSection">
                     <img src={dataScience} alt="Data Science" className="skillImg"/>
                     <div className="skillText">
                         <h2>Data Science</h2>
-                        <p>SQL, R, MarkLogic, XQuery</p>
+                        <p>SQL, R, MarkLogic/XQuery</p>
                     </div>
                 </div>
                 <div className="skillSection">
                     <img src={webDevelopment} alt="Client-Side Development" className="skillImg"/>
                     <div className="skillText">
                         <h2>Client-Side Development</h2>
-                        <p>JavaScript, React/Next.js, Firebase, HTML/CSS</p>
+                        <p>JavaScript, React/Next.js, React Native, Native/TailWind, Firebase, Redux, Sanity</p>
                     </div>
                 </div>
                 <div className="skillSection">
