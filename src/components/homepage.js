@@ -34,7 +34,7 @@ export default function Homepage() {
                 <span className={`hello ${helloLoaded ? 'loaded' : ''}`}>Hello,</span>
                 <span className={`introText ${introTextLoaded ? 'loaded' : ''}`}>I'm <span className="introName">Ryan,</span> <br />A Software Engineer</span>
                 <p className={`introP ${introPLoaded ? 'loaded' : ''}`}>I am a SWE with experience in developing, testing, and maintaining <br />software applications along with creating modern reactive websites</p>
-                <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="/portfolio_resume.pdf" target="_blank" rel="noopener noreferrer">
                     <button className={`btn ${isLoaded ? 'loaded' : ''} btn-secondary`}>
                         <img src={resume} alt="My Resume" className="btnImg"/> My Resume
                     </button>

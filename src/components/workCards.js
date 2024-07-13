@@ -7,6 +7,7 @@ import website from '../img/webDesign.jpeg';
 import gitHub from '../img/whiteGithub.png';
 import personaPlayground from '../img//personaPlayground.jpeg';
 import seoulBites from '../img/seoulBites.png';
+import sportsNews from '../img/sportsNews.png';
 import './workCards.css';
 import WorkCard from "./workCard";
 
@@ -19,6 +20,14 @@ export default function WorkCards() {
                 background={seoulBites} 
                 gitHubLink="https://github.com/ryancho7/seoul-bites" 
                 websiteLink="https://github.com/ryancho7/seoul-bites" 
+                gitHubImage={gitHub}
+            />
+            <WorkCard 
+                title="Sports News" 
+                subtitle="Vite/GPT-API/Redux" 
+                background={sportsNews} 
+                gitHubLink="https://github.com/ryancho7/sportsNews" 
+                websiteLink="https://sports-news-summarized.netlify.app/" 
                 gitHubImage={gitHub}
             />
             <WorkCard 
